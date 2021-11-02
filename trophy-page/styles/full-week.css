@@ -1,0 +1,19 @@
+body{
+    background-color: moccasin;
+    color: rgb(83,75,75);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    background-color: coral;
+    padding: 5px 10px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+li h4{
+ font-weight: bold;
+}
