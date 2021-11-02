@@ -1,0 +1,87 @@
+body{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:#ccccff;
+}
+
+header{
+    text-align: center;
+    padding: 5px;
+}
+
+.info{
+    background-color: blueviolet;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+}
+
+#first-line{
+    color:blueviolet;
+}
+#html-css-img{
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#download{
+    padding: 5px;
+    background-color: goldenrod;
+    font-size: medium;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#download:hover, #download:active{
+    background-color:khaki;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+#mdn-html, #mdn-css{
+    background-color: wheat;
+    padding: 2px 6px;
+    color: blueviolet;
+    border-radius: 5px;
+}
+
+#mdn-html:hover, #mdn-css:hover,
+#mdn-html:active, #mdn-css:active{
+    background-color:khaki;
+}
+
+.yellow{
+    color: goldenrod;
+    border-color: rgb(247,209,85);
+    border-left: 5px solid rgb(247,209,85);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 15px solid transparent;
+}
+
+.highlight{
+    font-weight: bold;
+}
