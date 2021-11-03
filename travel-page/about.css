@@ -1,0 +1,20 @@
+header, #container{
+    position: static;
+}
+
+.introduction{
+    margin: 20px auto;
+}
+
+body{
+    padding: 20px;
+    background-color: lightskyblue;
+}
+section p, section span{
+    font-size: large;
+}
+
+li{
+    text-align: left;
+}
+
