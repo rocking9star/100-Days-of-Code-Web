@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(159, 199, 206);
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin:2rem;
+}
+
+form{
+    border: 1px solid black;
+    background-color: rgb(193, 210, 212);
+    margin: auto;
+    padding: 1rem;
+    width: 40rem;
+    box-shadow: (0 2px 8px rgba(0,0,0,0.2));
+    border-radius: 6px;
+}
+section h2{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+}
+
+li{
+    width: auto;
+    margin:0;
+}
+
+input, textarea, select{
+    display: block;
+    margin-bottom: 1rem;
+    font: inherit;
+    border-radius: 4px;
+}
+
+.introduction input{
+    width: 100%;
+}
+
+input:focus, textarea:focus{
+    background-color: palegoldenrod;
+}
+
+.reply li input{
+    display: inline;
+}
+
+#checkbox-btn{
+    display: inline;
+}
+
+
+.btns{
+    display:flex;  
+    flex-direction: row;
+    margin:0;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+#submit-btn{
+    background-color: rgb(81,81,81);
+    color: white;
+    border: 1px solid black;
+}
+
+#clear-btn{
+    background-color: transparent;
+    color: rgb(2, 2, 59);
+    border: 1px solid black;
+}
+
+
+
+
