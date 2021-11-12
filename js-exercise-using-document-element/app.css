@@ -24,3 +24,7 @@ input{
     border: 2px solid blue;
     border-radius: 8px;
 }
+
+.warning{
+    background-color: red;
+}
