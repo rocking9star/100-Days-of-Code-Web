@@ -1,0 +1,26 @@
+body{
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    padding: 5px;
+}
+button{
+    border-radius: 8px;
+    background-color: rgb(165, 182, 15);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.input-line{
+    display:flex;
+    flex-direction: row;
+}
+
+#product-name{
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 25%;
+}
+input{
+    border: 2px solid blue;
+    border-radius: 8px;
+}
