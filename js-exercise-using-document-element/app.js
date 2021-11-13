@@ -11,12 +11,14 @@ function countChars(event){
     if(maxAllowedChars-textlength<=10)
     {
         remainingChars.style.color="red";
+        productName.classList="pink-bg";
         document.querySelector("button").classList="warning";
     }
     else
     {
         remainingChars.style.color="black";
         document.querySelector("button").classList.remove("warning");
+        productName.classList.remove("pink-bg");
     }
        
 }
